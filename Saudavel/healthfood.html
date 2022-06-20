@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+
+    <title>Healthy Eating</title>
+</head>
+
+<body>
+    <header class="header sticky">
+        <a href="#">
+            <img class="logo" alt="Healthfood logo" src="img/healthfood-logo.png" />
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#how it works">How it works</a></li>
+                <li><a class="main-nav-link" href="#meals">Meals</a></li>
+                <li>
+                    <a class="main-nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">
+                        The main message of the Healthy Eating Plate is to focus on diet quality.
+                    </h1>
+                    <p class="hero-description">
+                        In a small shop in the heart of Zaandam, we spend our days relentlessly perfecting the health food lifestyle.
+                        <br>The result is a perfect blend of beauty and comfort, that will have a lasting impact on your health life.
+                    </p>
+                    <a href="#cta" class="btn btn--full margin-right-sm">Start eating well</a>
+
+                    <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+                    <div class="delivered-meals">
+                        <div class="delivered-imgs">
+                            <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                            <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                            <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                            <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                            <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                            <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+                        </div>
+                        <p class="delivered-text">
+                            <span>250,000+</span> meals delivered last year!
+                        </p>
+                    </div>
+                </div>
+                <div class="hero-img-box">
+                    <!---<picture>--->
+                    <source srcset="img/hero.webp" type="image/webp" />
+                    <source srcset="img/hero-min.png" type="image/png" />
+                    <img src="eating1.jpg" class="hero-img" alt=" Woman enjoying food, meals in storage container, and food bowls on a table" />
+                    <!--</picture>-->
+                </div>
+                <h2>What makes our food special</h2>
+                <div class="grid-3-cols">
+                    <div>
+                        <svg class="features-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z">
+                            </path>
+                        </svg>
+                        <p class="features-title"><strong>Science of health products</strong></p>
+                        <p class="features-text">
+                            Food production is a major contributor to greenhouse gas emissions, and it places an enormous demand upon our earths natural resources..
+                        </p>
+                    </div>
+
+                    <div>
+                        <svg class="features-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                        <p class="features-title">
+                            <strong>Feeling more confortable.</strong>
+                        </p>
+                        <p class="features-text">
+                            It Your plate and the Planet Just as different foods can have differing impacts on human health,
+                            <br> and on the environment.
+                        </p>
+                    </div>
+
+                    <div>
+                        <svg class="features-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <p class="features-title">
+                            <strong>Ethical and sustainable</strong>
+                        </p>
+                        <p class="features-text">
+                            Building a Healthy and Balanced Diet Make most of your meal vegetables and fruits ½ of your plate. <br> Aim for color and variety, on the Healthy Eating.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="testimonial-section">
+            <div class="grid-3-cols">
+                <img src="cliente.jpg" alt="People drinking coffee" />
+                <div class="testimonial-box">
+                    <h2>"A healthy, balanced diet includes:"</h2>
+                    <blockquote class="testimonial-text">
+                        Vegetables and any subgroup such as beans, peas, starches, and those that are dark green, red or orange in color. Whole fruits. Whole grains such as quinoa, corn, millet, and brown rice!
+                    </blockquote>
+                    <p class="testimonial-author">&mdash; Linda and Shadia Santos</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="meal-section">
+                <h2 class="best-selling">Our bestselling meal</h2>
+                <div class="grid-3-cols">
+                    <figure class="meal">
+                        <img src="naturalmagesium.jpg" alt="Meal" />
+                        <div class="meal-box">
+                            <h3>Seeds and notes are the best sorce of the most important mineral for our body</h3>
+                            <ul class="meal-details">
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Health is the way</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Comfortable and happy everyday.</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Vegan Meal</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z">
+                                        </path>
+                                    </svg>
+                                    <span>Weighs 2 kg</span>
+                                </li>
+                            </ul>
+                            <div class="meal-price">
+                                <strong>10€</strong>
+                                <a href="#" class="btn btn--small">Add to cart</a>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <figure class="meal">
+                        <img src="healthmeal.jpg" alt="Meal" />
+                        <div class="meal-box">
+                            <h3>We are focus on health lifestyle</h3>
+                            <ul class="meal-details">
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+
+                                    <span>Work</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Healthy food makes you more strong</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Vegan food</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z">
+                                        </path>
+                                    </svg>
+                                    <span>Weighs 5 kg</span>
+                                </li>
+                            </ul>
+                            <div class="meal-price">
+                                <strong>25€</strong>
+                                <a href="#" class="btn btn--small">Add to cart</a>
+                            </div>
+                        </div>
+                    </figure>
+
+                    <figure class="meal">
+                        <img src="imunysystem.jfif" alt="Meal" />
+                        <div class="meal-box">
+                            <h3>Food that makes you strong and mental health</h3>
+                            <ul class="meal-details">
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Healthy food makes you more strong</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>With full of energy all day long!</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                    <span>Organic Food is the best choice</span>
+                                </li>
+                                <li>
+                                    <svg class="meal-icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z">
+                                        </path>
+                                    </svg>
+                                    <span>Weighs 10 kg</span>
+                                </li>
+                            </ul>
+                            <div class="meal-price">
+                                <strong>50€</strong>
+                                <a href="#" class="btn btn--small">Add to cart</a>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!--Testemonials section-->
+        <section class="section-testimonials" id="testimonials">
+            <div class="testimonials-container">
+                <span class="subheading">Testimonials</span>
+                <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+                <div class="testimonials">
+                    <figure class="testimonial">
+                        <img class="testimonial-img" alt="Photo of customer Dave Bryson" src="img/customers/dave.jpg" />
+                        <blockquote class="testimonial-text">
+                            Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Dave Bryson</p>
+                    </figure>
+                    <figure class="testimonial">
+                        <img class="testimonial-img" alt="Photo of customer Hannah Smith" src="img/customers/hannah.jpg" />
+                        <blockquote class="testimonial-text">
+                            I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.
+                        </blockquote>
+                        <p class="testimonial-name">&mdash; Hannah Smith</p>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-cta" id="cta">
+            <div class="container">
+                <div class="cta-text-box">
+                    <h2 class="heading-secondary">Get your first meal for free!</h2>
+                    <p class="cta-text">
+                        Healthy, tasty and hassle-free meals are waiting for you. Start eating well today.
+                        <br> You can cancel or pause anytime. And the first meal is on us!
+                    </p>
+                    <form name="myform"> Email :
+                        <input type="text" name="email"> <span class="error hide"></span>
+                        <br> Password :
+                        <input type="password" name="password"> <span class="error hide"></span>
+                        <br> User Name :
+                        <input type="text" name="userName"> <span class="error hide"></span>
+                        <br>
+                        <input type="submit" value="Sign Up">
+                    </form>
+
+                    <!--<form onclick="validate()" action="message.html" class="cta-form" name="sign-up" netlify>
+                        <div>
+                            <label for="full-name">Full Name</label>
+                            <input id="full-name" type="text" placeholder="G Singano" name="full-name" required />
+                        </div>
+
+                        <div>
+                            <label for="email">Email address</label>
+                            <input id="email" type="email" placeholder="me@example.com" name="email" required />
+                        </div>
+
+                        <div>
+                            <label for="select-where">Where did you hear from us?</label>
+                            <select id="select-where" name="select-where" required>
+                                <option value="">Please choose one option:</option>
+                                <option value="friends">Friends and family</option>
+                                <option value="youtube">YouTube video</option>
+                                <option value="podcast">Podcast</option>
+                                <option value="ad">Facebook ad</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+
+                        <button class="btn btn--form">Sign up now</button>
+
+                     -->
+                    </form>
+                </div>
+                <div class="cta-img-box" role="img" aria-label="Woman enjoying food"></div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container grid grid--footer">
+            <div class="logo-col">
+                <a href="#" class="footer-logo">
+                    <img class="logo" alt="Saudavelfood logo" src="img/saudavelfood-logo.png" />
+                </a>
+
+                <ul class="social-links">
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="copyright">
+                    Copyright &copy; <span class="year">2027</span> by Saudavelfood, Inc. All rights reserved.
+                </p>
+            </div>
+
+            <div class="address-col">
+                <p class="footer-heading">Contact us</p>
+                <address class="contacts">
+                    <p class="address">
+                        Zuiderkerkstraat, Zaandam
+                    </p>
+                    <p>
+                        <a class="footer-link" href="tel:3163356782">+3163356782</a><br />
+                        <a class="footer-link" href="mailto:hello@saudavelfood.com">hello@saudavelfood.com</a>
+                    </p>
+                </address>
+            </div>
+
+            <nav class="nav-col">
+                <p class="footer-heading">Account</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Create account</a></li>
+                    <li><a class="footer-link" href="#">Sign in</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-col">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">About saudavelfood</a></li>
+                    <li><a class="footer-link" href="#">For Business</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-col">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Recipe directory </a></li>
+                    <li><a class="footer-link" href="#">Help center</a></li>
+                </ul>
+            </nav>
+    </footer>
+    <script src="smaker.js"></script>
+</body>
+
+</html>
